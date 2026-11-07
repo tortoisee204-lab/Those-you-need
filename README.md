@@ -9,7 +9,7 @@ armDelete(del, 'Delete', function () {
         del
       ]));
     });
-    $('#rmSamples').hidden = !state.products.some(function (p) { return p.sample; });
+    $('rmSamples').hidden = !state.products.some(function (p) { return p.sample; });
   }
   function removeSamples() {
     var btn = $('#rmSamples');
